@@ -1,0 +1,64 @@
+{
+  "themes": [
+    {
+      "id": "soteria-forge",
+      "name": "Soteria Forge",
+      "tokens": {
+        "colors": {
+          "primary": "#E8551F",
+          "accent": "#FFB552",
+          "bg": "#15171B",
+          "surface": "#1B1E23",
+          "text": "#F4F2EE",
+          "muted": "#A9B2BC"
+        },
+        "font": {
+          "display": "Oswald",
+          "body": "Barlow Semi Condensed"
+        },
+        "radius": "18px",
+        "density": "comfortable"
+      }
+    },
+    {
+      "id": "slate",
+      "name": "Slate",
+      "tokens": {
+        "colors": {
+          "primary": "#2563EB",
+          "accent": "#0EA5E9",
+          "bg": "#FFFFFF",
+          "surface": "#F1F5F9",
+          "text": "#0F172A",
+          "muted": "#64748B"
+        },
+        "font": {
+          "display": "Inter",
+          "body": "Inter"
+        },
+        "radius": "12px",
+        "density": "comfortable"
+      }
+    },
+    {
+      "id": "mono",
+      "name": "Mono",
+      "tokens": {
+        "colors": {
+          "primary": "#000000",
+          "accent": "#000000",
+          "bg": "#FFFFFF",
+          "surface": "#F4F4F5",
+          "text": "#000000",
+          "muted": "#52525B"
+        },
+        "font": {
+          "display": "Space Grotesk",
+          "body": "Inter"
+        },
+        "radius": "4px",
+        "density": "compact"
+      }
+    }
+  ]
+}

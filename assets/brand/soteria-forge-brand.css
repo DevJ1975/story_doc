@@ -1,0 +1,163 @@
+/* =========================================================================
+   Soteria Forge — Brand stylesheet
+   Drop into the LMS and import once at the app root.
+   Pairs with assets/soteria-forge-mark*.svg
+   ========================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Brand */
+  --sf-ember:      #E8551F;  /* primary brand / "FORGE" word / accents */
+  --sf-ember-hot:  #FF7A3D;  /* ember on dark backgrounds */
+  --sf-spark:      #FFB552;  /* secondary accent, highlights */
+  --sf-charcoal:   #1B1E23;  /* ink, dark backgrounds, app tile */
+  --sf-ink:        #1A1D22;  /* "SOTERIA" word, headings on light */
+  --sf-steel:      #3A4048;  /* secondary UI */
+
+  /* Surfaces */
+  --sf-cast:       #F6F1E9;  /* warm paper / certificate ground */
+  --sf-surface:    #F6F5F6;  /* light neutral surface */
+  --sf-page:       #E9E8EA;  /* page background */
+  --sf-hairline:   #DDDCDE;  /* borders */
+  --sf-muted:      #8A929C;  /* secondary text */
+
+  /* Gradients */
+  --sf-grad-ember: linear-gradient(150deg, #F69A3C, #D8451A);
+  --sf-grad-flame: linear-gradient(180deg, #FFE6B0, #F8D38A);
+
+  /* Type */
+  --sf-font-display: 'Oswald', system-ui, sans-serif;          /* wordmark, headings */
+  --sf-font-ui:      'Barlow Semi Condensed', system-ui, sans-serif; /* labels, UI, taglines */
+
+  /* Radius */
+  --sf-radius-tile: 24px;
+  --sf-radius-card: 18px;
+  --sf-radius-chip: 12px;
+}
+
+/* ---- Headings ---------------------------------------------------------- */
+.sf-display {
+  font-family: var(--sf-font-display);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--sf-ink);
+}
+
+/* ---- Wordmark ---------------------------------------------------------- */
+.sf-wordmark {
+  font-family: var(--sf-font-display);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--sf-ink);
+  white-space: nowrap;
+}
+.sf-wordmark .forge { color: var(--sf-ember); }
+
+/* Reversed (on charcoal / dark) */
+.sf-on-dark .sf-wordmark,
+.sf-wordmark--reversed { color: #F4F2EE; }
+.sf-on-dark .sf-wordmark .forge,
+.sf-wordmark--reversed .forge { color: var(--sf-ember-hot); }
+
+/* ---- Logo lockup (mark + wordmark) ------------------------------------ */
+.sf-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;            /* ~0.25x mark width at typical sizes */
+}
+.sf-logo__mark {
+  flex-shrink: 0;
+  width: 2em;
+  height: 2em;
+  display: block;
+}
+
+/* ---- Tagline ----------------------------------------------------------- */
+.sf-tagline {
+  font-family: var(--sf-font-ui);
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--sf-muted);
+}
+
+/* ---- App header -------------------------------------------------------- */
+.sf-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background: #15171B;
+  padding: 16px 22px;
+}
+.sf-header .sf-wordmark { color: #F4F2EE; font-size: 19px; }
+.sf-header .sf-wordmark .forge { color: var(--sf-ember-hot); }
+.sf-header .sf-logo__mark { width: 34px; height: 34px; }
+
+/* ---- App / favicon tile ------------------------------------------------ */
+.sf-app-tile {
+  width: 104px;
+  height: 104px;
+  border-radius: var(--sf-radius-tile);
+  background: var(--sf-charcoal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+.sf-app-tile--ember {
+  background: var(--sf-grad-ember);
+  box-shadow: 0 10px 24px rgba(216, 69, 26, 0.32);
+}
+
+/* ---- Buttons (brand primary) ------------------------------------------ */
+.sf-btn {
+  font-family: var(--sf-font-ui);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 22px;
+  cursor: pointer;
+  background: var(--sf-ember);
+  color: #fff;
+  transition: background 120ms ease, transform 120ms ease;
+}
+.sf-btn:hover  { background: #D8451A; }
+.sf-btn:active { transform: translateY(1px); }
+.sf-btn--ghost {
+  background: transparent;
+  color: var(--sf-ink);
+  box-shadow: inset 0 0 0 1.5px var(--sf-hairline);
+}
+.sf-btn--ghost:hover { box-shadow: inset 0 0 0 1.5px var(--sf-ember); color: var(--sf-ember); }
+
+/* ---- Progress bar (ember fill) ----------------------------------------- */
+.sf-progress {
+  height: 8px;
+  background: #E2E0E2;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.sf-progress__fill {
+  height: 100%;
+  background: linear-gradient(90deg, #F69A3C, var(--sf-ember));
+}
+
+/* ---- Card -------------------------------------------------------------- */
+.sf-card {
+  background: #fff;
+  border: 1px solid var(--sf-hairline);
+  border-radius: var(--sf-radius-card);
+  padding: 24px;
+}
+
+/* ---- Focus ring (brand) ------------------------------------------------ */
+.sf-focusable:focus-visible {
+  outline: 2px solid var(--sf-ember);
+  outline-offset: 2px;
+}
+
+::selection { background: var(--sf-ember); color: #fff; }

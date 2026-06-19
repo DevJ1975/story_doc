@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "title": "Soteria Forge — Develop the people behind every passenger",
+    "slug": "soteria-forge-terminal",
+    "status": "DRAFT",
+    "themeId": "soteria-forge",
+    "ogImageUrl": "assets/photos/terminal-concourse.jpg"
+  },
+  "sections": [
+    {
+      "id": "s-hero",
+      "layout": "hero",
+      "background": "gradient",
+      "blocks": [
+        {
+          "id": "b1",
+          "type": "hero",
+          "props": {
+            "eyebrow": "Development brief · Ground & terminal services",
+            "title": "Develop the people behind every passenger",
+            "subtitle": "The mobile, offline-first platform built to grow leaders, strengthen culture, and raise customer-service standards across a 6,000+ deskless terminal workforce — from the curb to the gate to below-wing.",
+            "cta": { "label": "See how we develop at scale", "href": "#develop" }
+          }
+        },
+        {
+          "id": "b41",
+          "type": "image",
+          "props": {
+            "src": "assets/photos/terminal-concourse.jpg",
+            "alt": "Travelers in a sunlit airport terminal concourse at golden hour, an aircraft departing beyond the glass",
+            "caption": "Every shift, across the whole terminal.",
+            "width": 1200,
+            "height": 630,
+            "fit": "cover"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s-story",
+      "layout": "single",
+      "anchor": "story",
+      "blocks": [
+        { "id": "b2", "type": "heading", "props": { "text": "A delayed flight, a full concourse, and one agent who's ready", "level": 2 } },
+        { "id": "b3", "type": "richText", "props": { "html": "<p>It's 16:10. A weather hold has stacked three flights into one gate. The service desk line is twenty deep — anxious connections, a family with an unaccompanied minor, an elderly traveler waiting on wheelchair assistance, and a businessman who has already lost his patience. To every one of them, the agent at that desk <em>is</em> the airline. <em>Is</em> the airport. Is your company's reputation, live, with no script and no time.</p><p>With Soteria Forge, that agent did a four-minute service-recovery refresher on their phone between shifts this morning — practiced the exact &ldquo;acknowledge, own it, offer a path&rdquo; moves and watched a lead model the wheelchair-assistance handoff. So when the concourse stacks up, they don't freeze. They step in. The minor is reassured, the elderly passenger is moved with dignity, the line eases — and a moment that could have become a complaint becomes the reason someone flies again.</p>" } },
+        { "id": "b4", "type": "callout", "props": { "tone": "info", "title": "One loop, everywhere on the floor", "body": "Learn it offline → practice the real moment → get signed off → get recognized → deliver it for the passenger in front of you." } },
+        { "id": "b42", "type": "image", "props": { "src": "assets/photos/wheelchair-assistance.jpg", "alt": "An airport assistance agent walking beside an older traveler seated in a wheelchair in a sunlit terminal", "caption": "Sensitive assistance — handled with dignity.", "width": 1400, "height": 933, "fit": "cover" } }
+      ]
+    },
+    {
+      "id": "s-pain",
+      "layout": "single",
+      "anchor": "pain",
+      "blocks": [
+        { "id": "b5", "type": "heading", "props": { "text": "Every shift, your brand is in the hands of thousands you can't gather in a room", "level": 2 } },
+        { "id": "b6", "type": "stats", "props": { "items": [
+          { "value": "6,000+", "label": "frontline employees to onboard, develop & re-train" },
+          { "value": "24/7", "label": "rotating shifts across one terminal" },
+          { "value": "0", "label": "desks for the people who carry your brand" }
+        ] } },
+        { "id": "b7", "type": "list", "props": { "style": "check", "items": [
+          "Onboarding & continuously re-training 6,000+ people through high turnover and seasonal peaks",
+          "Inconsistent customer-service quality across a huge, customer-facing frontline — where every interaction is the airline's brand",
+          "No leadership pipeline — strong agents promoted to leads and supervisors with little real development",
+          "A disengaged, deskless workforce where culture and values are hard to instill at terminal scale",
+          "High-stakes accessibility & sensitive-assistance: wheelchair, passengers with disabilities, elderly travelers, unaccompanied minors",
+          "De-escalation and service recovery under pressure during delays, weather holds, and IRROPS",
+          "A multilingual, mobile-only, varied-literacy workforce inside terminal connectivity dead zones",
+          "Multi-employer, per-airline contracts that demand data isolation plus SLA and quality reporting",
+          "Proving training completion, service standards, and impact to airline partners and your own leadership"
+        ] } }
+      ]
+    },
+    {
+      "id": "s-develop",
+      "layout": "single",
+      "anchor": "develop",
+      "background": "surface",
+      "blocks": [
+        { "id": "b8", "type": "heading", "props": { "text": "What we develop", "level": 2 } },
+        { "id": "b9", "type": "richText", "props": { "html": "<p>Soteria Forge isn't a course library. It's a development system organized around the capabilities that decide passenger experience and retention on a terminal floor — three that grow your people, one flagship for your most sensitive service, and a foundation that keeps it all solid.</p>" } },
+        { "id": "b10", "type": "table", "props": {
+          "headers": ["Pillar", "What we develop"],
+          "rows": [
+            ["Leadership development", "Turn your best agents into leads and supervisors — coaching, feedback, running a fair shift, and a promotion-ready bench before you need it."],
+            ["Culture & engagement", "Make your values legible to a deskless frontline — onboarding, recognition, and a two-way pulse that reaches every shift, in their language."],
+            ["Customer-service excellence", "One consistent standard across thousands of people — presence, problem-solving, de-escalation, and service recovery during IRROPS."],
+            ["Accessibility & sensitive-assistance", "Dignity-first development for wheelchair/PRM, elderly, and unaccompanied-minor assistance — skill-built and field-verified; supports your ADA and DOT obligations."],
+            ["Safety & compliance (foundation)", "Ramp, security, and recurrent requirements — tracked, dated, and audit-ready — handled quietly so development can lead."]
+          ]
+        } },
+        { "id": "b11", "type": "callout", "props": { "tone": "info", "title": "Four pillars grow your people. The fifth keeps the foundation solid.", "body": "All five reach every employee, on the device already in their pocket — on every shift, with or without signal." } }
+      ]
+    },
+    {
+      "id": "s-roles",
+      "layout": "single",
+      "anchor": "roles",
+      "blocks": [
+        { "id": "b12", "type": "heading", "props": { "text": "Every role on the floor, developed for what matters most", "level": 2 } },
+        { "id": "b13", "type": "table", "props": {
+          "headers": ["Service line / role", "Development that matters most"],
+          "rows": [
+            ["Wheelchair / PRM assistance", "Sensitive-assistance, customer empathy, and safe-transfer technique with supervisor sign-off"],
+            ["Passenger & customer service", "De-escalation, service recovery, and each airline's brand standard"],
+            ["Gate agents", "Composure under delays & IRROPS, boarding accuracy, PRM/UMNR awareness"],
+            ["Ticketing & check-in", "Service excellence, accuracy, and accessibility awareness"],
+            ["Special services / UMNR", "Sensitive-assistance, safeguarding, and calm communication"],
+            ["Baggage & ramp", "Safe operations, teamwork, and offline-first delivery for below-wing crews"],
+            ["Cabin appearance", "Quality standards, safe handling, and inclusion in culture & recognition"],
+            ["New supervisors & leads", "A &ldquo;first 90 days as a lead&rdquo; pathway: coaching, fair scheduling, recognition"]
+          ]
+        } }
+      ]
+    },
+    {
+      "id": "s-how",
+      "layout": "single",
+      "anchor": "how",
+      "background": "surface",
+      "blocks": [
+        { "id": "b14", "type": "heading", "props": { "text": "Development that reaches the whole terminal — on every shift, on or off the grid", "level": 2 } },
+        { "id": "b15", "type": "table", "props": {
+          "headers": ["The reality on the floor", "How Soteria Forge is built to deliver"],
+          "rows": [
+            ["Terminal connectivity dead zones", "True offline-first mobile learning; progress syncs idempotently on reconnect — nothing re-watched, nothing lost"],
+            ["Onboarding & re-training 6,000+ through high turnover", "Bulk roster import + bulk path assignment; new hires productive in days, not cohorts"],
+            ["Multilingual, varied-literacy workforce", "Multilingual delivery and audio/visual-first microlearning in low-text formats"],
+            ["Inconsistent service quality across roles", "Role-based paths with practical supervisor sign-off — a standard demonstrated, not just clicked"],
+            ["Multi-employer / per-airline contracts", "Multi-tenant isolation by tenant ID — each airline's people and data fully partitioned"],
+            ["Proving impact to leadership & airline partners", "Live dashboards plus exportable completion, standard, and SLA reporting"],
+            ["A workforce that won't sit in a classroom", "3–5 minute microlearning for between-shift, in-the-pocket moments"]
+          ]
+        } },
+        { "id": "b16", "type": "callout", "props": { "tone": "info", "title": "The fit", "body": "An assistance agent completes a sensitive-handoff refresher in a jet-bridge dead zone with zero signal; the completion syncs automatically on reconnect and lands on the leader's dashboard — nothing re-watched, nothing re-keyed, nothing lost." } },
+        { "id": "b17", "type": "cta", "props": { "label": "See the rollout", "href": "#rollout", "variant": "outline", "trackingId": "cta-rollout" } }
+      ]
+    },
+    {
+      "id": "s-capacity",
+      "layout": "single",
+      "anchor": "scale",
+      "blocks": [
+        { "id": "b18", "type": "heading", "props": { "text": "Built to carry the whole terminal — not a pilot crew", "level": 2 } },
+        { "id": "b19", "type": "stats", "props": { "items": [
+          { "value": "6,000+", "label": "employees developed on one platform" },
+          { "value": "8+", "label": "service lines, curbside to ramp to gate" },
+          { "value": "95%+", "label": "learning-path completion, terminal-wide (illustrative)" },
+          { "value": "3–5 min", "label": "microlearning, sized for a shift" }
+        ] } },
+        { "id": "b20", "type": "richText", "props": { "html": "<p>Wheelchair &amp; assistance agents, passenger and customer service, gate agents, ticketing, cabin appearance, baggage &amp; ramp, ops &amp; dispatch, and the supervisors who lead them — every role, in every language, on one source of truth.</p>" } },
+        { "id": "b21", "type": "image", "props": {
+          "src": "assets/dashboard-preview.svg",
+          "alt": "Soteria Forge frontline readiness dashboard showing completion, leadership-readiness, and service standards by service line",
+          "caption": "Live frontline readiness dashboard (representative)",
+          "fit": "cover"
+        } }
+      ]
+    },
+    {
+      "id": "s-program",
+      "layout": "single",
+      "anchor": "program",
+      "blocks": [
+        { "id": "b22", "type": "heading", "props": { "text": "What it feels like — for the agent, and for the leader", "level": 2 } },
+        { "id": "b23", "type": "richText", "props": { "html": "<p>Development only works if people actually do it. So we designed for the realities of a shift: short, practical, social, and recognized.</p>" } },
+        { "id": "b43", "type": "image", "props": { "src": "assets/photos/customer-service.jpg", "alt": "A smiling airline customer-service agent handing a boarding pass to a traveler at a terminal gate desk", "caption": "One consistent standard, every interaction.", "width": 1400, "height": 933, "fit": "cover" } },
+        { "id": "b24", "type": "list", "props": { "style": "number", "items": [
+          "Microlearning that fits a shift — 3–5 minute lessons on the phone, downloadable for the dead zones, in the language they prefer",
+          "Practice the real moment — scenario reps for de-escalation, service recovery, and sensitive assistance, not multiple-choice trivia",
+          "Get signed off in the field — a lead verifies the skill on the floor, so competence is demonstrated, not just clicked",
+          "Get recognized — completions and milestones are visible and celebrated, turning development into momentum"
+        ] } },
+        { "id": "b25", "type": "callout", "props": { "tone": "info", "title": "For the leader", "body": "Coach from one shared playbook, see readiness at a glance — who's developing, who's promotion-ready, where service standards are strong or slipping — and grow the bench before a vacancy opens." } }
+      ]
+    },
+    {
+      "id": "s-rollout",
+      "layout": "single",
+      "anchor": "rollout",
+      "blocks": [
+        { "id": "b26", "type": "heading", "props": { "text": "Live with one service line in weeks — terminal-wide on a clear path", "level": 2 } },
+        { "id": "b27", "type": "table", "props": {
+          "headers": ["Phase", "Timeline", "Scope & milestone"],
+          "rows": [
+            ["Phase 0 — Pilot service line", "Weeks 1–4", "One service line; customer-service excellence + a sensitive-assistance refresher; validate engagement & offline delivery"],
+            ["Phase 1 — Service-line cluster", "Weeks 5–10", "Add wheelchair/assistance + gate & ticketing; bulk roster import; first leadership-path cohort"],
+            ["Phase 2 — Terminal-wide", "Weeks 11–18", "All service lines incl. ramp/baggage & ops; culture & engagement and the safety foundation to all 6,000+"],
+            ["Phase 3 — All airlines / all tenants", "Weeks 19–26", "Every airline contract onboarded as an isolated tenant; SLA & quality dashboards live for partners"]
+          ]
+        } },
+        { "id": "b28", "type": "divider", "props": { "size": "md" } }
+      ]
+    },
+    {
+      "id": "s-security",
+      "layout": "single",
+      "anchor": "security",
+      "background": "surface",
+      "blocks": [
+        { "id": "b29", "type": "heading", "props": { "text": "Built to be trusted by every airline you serve", "level": 2 } },
+        { "id": "b30", "type": "richText", "props": { "html": "<p>Every airline contract runs as its own isolated tenant, partitioned by tenant ID, so one partner's people, progress, and records are never visible to another. Development and engagement data is used to grow, recognize, and record-keep — not to monitor; access is least-privilege and SSO-backed, encrypted in transit and at rest, and a supervisor sees their team, not the whole terminal.</p>" } },
+        { "id": "b31", "type": "list", "props": { "style": "check", "items": [
+          "Multi-tenant isolation by tenant ID — full data separation per airline contract",
+          "Dated, attributable completion & sign-off records with a full audit trail",
+          "Purpose-limited, transparent learner data — development and recognition, not surveillance",
+          "SOC 2 Type II — compliance in progress (pending)",
+          "Exportable SLA & quality reporting for your airline partners",
+          "Audit-ready records that support OSHA, TSA, FAA, and airline-client review"
+        ] } },
+        { "id": "b32", "type": "callout", "props": { "tone": "warn", "title": "SOC 2 Type II — compliance in progress (pending)", "body": "We're building Soteria Forge to enterprise-grade standards and pursuing SOC 2 Type II attestation; our security and data-isolation controls are designed to meet that bar today. (SOC 2 is an attestation, not a certification — report available under NDA once issued.)" } }
+      ]
+    },
+    {
+      "id": "s-why",
+      "layout": "single",
+      "anchor": "why",
+      "blocks": [
+        { "id": "b33", "type": "heading", "props": { "text": "Most platforms train a desk. We develop a terminal.", "level": 2 } },
+        { "id": "b34", "type": "quote", "props": {
+          "text": "We have thousands of people who never sit at a desk — and they are the experience our airline partners pay for. Soteria Forge is the first thing that actually reaches them: short lessons they'll do, leaders working from one playbook, and a dashboard that finally answers 'are our people ready?'",
+          "attribution": "Composite of frontline operations leaders — illustrative, not a single named customer"
+        } },
+        { "id": "b35", "type": "stats", "props": { "items": [
+          { "value": "6,000+", "label": "frontline employees on one development platform" },
+          { "value": "40%", "label": "faster onboarding for new frontline hires (illustrative)" },
+          { "value": "95%+", "label": "learning-path completion, terminal-wide (illustrative)" }
+        ] } },
+        { "id": "b36", "type": "list", "props": { "style": "bullet", "items": [
+          "Development-first, not compliance-first — leadership, culture, and service lead; safety is the solid floor beneath them",
+          "Built for deskless terminal teams — designed around phones, shared devices, shift work, and dead zones",
+          "Offline-first, not offline-bolted-on — the field case is the default case",
+          "Multi-tenant by design — per-airline isolation and SLA reporting are structural",
+          "One standard, 6,000+ people — role-based paths plus field sign-off so a standard is demonstrated, not assumed"
+        ] } }
+      ]
+    },
+    {
+      "id": "s-contact",
+      "layout": "single",
+      "anchor": "contact",
+      "background": "surface",
+      "blocks": [
+        { "id": "b37", "type": "heading", "props": { "text": "Let's build your frontline development program", "level": 2 } },
+        { "id": "b38", "type": "contact", "props": {
+          "name": "Monica Lynn Green",
+          "credential": "MBA",
+          "role": "Business Development Lead",
+          "phone": "216-244-2749",
+          "email": "monicalynn@trainovations.com",
+          "photo": "assets/team/monica-green.jpg",
+          "blurb": "Bring your service lines, your turnover numbers, and your airline SLAs — Monica will map a rollout to your terminal. Typically responds within one business day."
+        } }
+      ]
+    },
+    {
+      "id": "s-cta",
+      "layout": "single",
+      "anchor": "cta",
+      "background": "primary",
+      "blocks": [
+        { "id": "b39", "type": "heading", "props": { "text": "Turn \"are our people ready?\" into a live answer.", "level": 2, "align": "center" } },
+        { "id": "b40", "type": "cta", "props": {
+          "label": "Request a walkthrough",
+          "href": "mailto:monicalynn@trainovations.com?subject=Soteria%20Forge%20walkthrough",
+          "variant": "accent",
+          "trackingId": "cta-primary"
+        } }
+      ]
+    }
+  ]
+}
