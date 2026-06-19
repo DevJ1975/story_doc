@@ -1,160 +1,191 @@
-<sub>Capability brief</sub>
+<sub>Development brief · Ground & terminal services</sub>
 
-# Soteria Forge LMS — Enterprise safety training, built for airport scale
+# Develop the people behind every passenger
 
-Soteria Forge is a multi-tenant, offline-first, standards-based learning management system engineered for a distributed airport workforce of roughly **1,000 employees** — the ramp crews, baggage handlers, gate agents, and operations staff who keep Hartsfield-Jackson (ATL) moving around the clock. It assumes the conditions you actually operate in: no desks, no reliable signal below-wing, three rotating shifts, and a dozen or more employers sharing one airfield. Training, certification, and audit evidence live in a single system that works whether or not there's a bar of service.
+Soteria Forge is the mobile, offline-first platform **built to grow leaders, strengthen culture, and raise customer-service standards across a 6,000+ deskless terminal workforce** — from the curb to the gate to below-wing. For a Unifi-scale ground and terminal services operator, your people *are* the experience your airline partners pay for. They never sit at a desk, they rotate through shifts around the clock, and on every interaction they carry your brand. Soteria Forge is built to reach all of them — on the device already in their pocket, with or without signal.
 
-**See how it works ↓**
-
----
-
-## The 90-second story
-
-It's 04:40. A ramp supervisor checks the board for the 05:00 push and sees a problem: two crew members are showing as lapsed on fall protection, and a third hasn't completed lockout/tagout (LOTO) since transferring in last week. Half the crew is already below-wing, where there's no Wi-Fi and no cell coverage worth the name. Under the old way, this is a scramble — a spreadsheet that's a day stale, a binder of paper sign-offs nobody can find, and a 20-seat classroom that won't open until 08:00. The shift either goes out non-compliant or goes out short.
-
-With Soteria Forge, it's one workflow. The supervisor **assigns** the outstanding modules from a phone before the crew even clocks in. Those crew members **learn offline** — lessons, quizzes, and acknowledgments cached on their devices, completed in a tunnel or on a jet bridge with zero signal. When their devices touch the network again, progress **syncs on reconnect**, the system **certifies** completion with a dated record, and the supervisor watches the names flip to green on a **live dashboard**. No re-watching, no re-keying, no paper. The push goes out on time, and it goes out current.
-
-> Assign → learn offline → sync on reconnect → certify → see it live. One loop, one source of truth.
+**See how we develop at scale ↓**
 
 ---
 
-## The operating reality
+## A delayed flight, a full concourse, and one agent who's ready
 
-The constraints aren't edge cases — they're the baseline. Any system that ignores them creates shadow spreadsheets within a month.
+It's 16:10. A weather hold has stacked three flights into one gate. The service desk line is twenty deep — anxious connections, a family with an unaccompanied minor, an elderly traveler waiting on wheelchair assistance, and a businessman who has already lost his patience. To every one of them, the agent at that desk *is* the airline. *Is* the airport. Is your company's reputation, live, with no script and no time.
+
+With Soteria Forge, that agent did a four-minute service-recovery refresher on their phone between shifts this morning — practiced the exact "acknowledge, own it, offer a path" moves and watched a lead model the wheelchair-assistance handoff. So when the concourse stacks up, they don't freeze. They step in. The minor is reassured, the elderly passenger is moved with dignity, the line eases — and a moment that could have become a complaint becomes the reason someone flies again.
+
+> **One loop, everywhere on the floor:** Learn it offline → practice the real moment → get signed off → get recognized → deliver it for the passenger in front of you.
+
+---
+
+## Every shift, your brand is in the hands of thousands you can't gather in a room
+
+The constraints aren't edge cases — they're the baseline of terminal operations.
 
 | Metric | Value |
 | --- | --- |
-| Employees to train & recertify | **1,000** |
-| Rotating shifts, 24/7 | **3** |
-| Desks on the ramp | **0** |
+| Frontline employees to onboard, develop & re-train | **6,000+** |
+| Rotating shifts across one terminal | **24/7** |
+| Desks for the people who carry your brand | **0** |
 
-What a platform has to absorb to work here:
+What a development platform has to absorb to work here:
 
-- ✓ A **deskless, mobile-first workforce** — training happens on phones and shared tablets, not at workstations
-- ✓ **Connectivity dead zones** — tunnels, jet bridges, and below-wing areas where signal simply isn't there
-- ✓ **High turnover and continuous onboarding** — new hires arriving every week, not in neat annual cohorts
-- ✓ A **multi-employer environment** — multiple companies on one airfield, each needing strict data isolation
-- ✓ A **heavy audit load** — OSHA, TSA, and FAA reviews that demand attributable, exportable evidence on demand
-- ✓ **Expiring certifications** to track — recurrent training with hard deadlines and no grace for lapses
+- ✓ Onboarding and continuously re-training **6,000+ people** through high turnover and seasonal peaks
+- ✓ **Inconsistent customer-service quality** across a huge, customer-facing frontline — where every interaction is the airline's brand
+- ✓ **No leadership pipeline** — strong agents promoted to leads and supervisors with little real development
+- ✓ A **disengaged, deskless workforce** where culture and values are hard to instill at terminal scale
+- ✓ **High-stakes accessibility and sensitive-assistance** — wheelchair and PRM, passengers with disabilities, elderly travelers, unaccompanied minors
+- ✓ **De-escalation and service recovery under pressure** during delays, weather holds, and IRROPS
+- ✓ A **multilingual, mobile-only, varied-literacy workforce** inside terminal connectivity dead zones
+- ✓ **Multi-employer, per-airline contracts** that demand data isolation plus SLA and quality reporting
+- ✓ **Proving training completion, service standards, and impact** to airline partners and your own leadership
 
 ---
 
-## How the platform answers it
+## What we develop
 
-Every constraint above maps to a specific, shipped capability. Nothing here is a roadmap promise; it's how the platform is built.
+Soteria Forge isn't a course library. It's a development system organized around the capabilities that decide passenger experience and retention on a terminal floor — three pillars that grow your people, one flagship for your most sensitive service, and a foundation that keeps it all solid.
 
-| Pain point | Capability |
+| Pillar | What we develop |
 | --- | --- |
-| Connectivity dead zones | True offline learning with idempotent sync |
-| Onboarding at scale | Bulk roster import + bulk course assignment |
-| Multi-employer | Multi-tenant isolation by tenant ID |
-| Audit load | Audit trail + xAPI records + dated certificates |
-| Recurrent training | Certificate expiry + overdue tracking |
-| Hands-on skills | Supervisor practical sign-off |
+| **Leadership development** | Turn your best agents into leads and supervisors — coaching, feedback, running a fair shift, and a promotion-ready bench before you need it. |
+| **Culture & engagement** | Make your values legible to a deskless frontline — onboarding, recognition, and a two-way pulse that reaches every shift, in their language. |
+| **Customer-service excellence** | One consistent standard across thousands of people — presence, problem-solving, de-escalation, and service recovery during IRROPS. |
+| **Accessibility & sensitive-assistance** | Dignity-first development for wheelchair/PRM, elderly, and unaccompanied-minor assistance — skill-built and field-verified; supports your ADA and DOT obligations. |
+| **Safety & compliance (foundation)** | Ramp, security, and recurrent requirements — tracked, dated, and audit-ready — handled quietly so development can lead. |
 
-The hard part isn't any single feature — it's making them dependable together, in the field, at shift change. The offline path is the proof point:
-
-> A handler completes lessons in a tunnel with no signal; records sync automatically on reconnect — nothing re-watched, nothing lost, nothing double-counted.
+> **Four pillars grow your people. The fifth keeps the foundation solid.** All five reach every employee, on the device already in their pocket — on every shift, with or without signal.
 
 ---
 
-## Capacity & scale at ATL
+## Every role on the floor, developed for what matters most
 
-Built to carry the full ATL footprint without degrading as employers, courses, and devices multiply.
-
-| Capacity (illustrative) | Value |
+| Service line / role | Development that matters most |
 | --- | --- |
-| Employers / tenants isolated | **50+** |
-| Courses & micro-lessons | **200+** |
-| Median sync reconcile | **<2s** |
-| Audit-record completeness | **99.9%** |
-
-The offline-sync architecture is the engineering core. Course content and assignments are cached on the device the moment they're issued, so a worker walking into a dead zone already has everything needed to complete their training. Lesson progress, quiz results, and supervisor sign-offs are recorded **locally** against stable, client-generated IDs — the device never waits on a server to make progress. When connectivity returns, those events sync **idempotently**: each event carries its own identity, so replaying it has no additional effect. A lesson finished once stays finished once, no matter how many times the sync runs or how flaky the link is.
-
-That design makes the common failure modes structurally impossible rather than merely handled. Because completions are keyed by stable client IDs and applied idempotently, there's nothing to re-watch on a dropped connection and nothing to double-count on a retry — the system is conflict-free by construction. Operators don't reconcile spreadsheets; the platform reconciles itself.
-
-![Soteria Forge compliance dashboard showing live training status across ramp crews, with green/amber/red certification states and overdue counts by employer](https://placehold.co/1200x675?text=Soteria+Forge+Compliance+Dashboard)
+| Wheelchair / PRM assistance | Sensitive-assistance, customer empathy, and safe-transfer technique with supervisor sign-off |
+| Passenger & customer service | De-escalation, service recovery, and each airline's brand standard |
+| Gate agents | Composure under delays & IRROPS, boarding accuracy, PRM/UMNR awareness |
+| Ticketing & check-in | Service excellence, accuracy, and accessibility awareness |
+| Special services / UMNR | Sensitive-assistance, safeguarding, and calm communication |
+| Baggage & ramp | Safe operations, teamwork, and offline-first delivery for below-wing crews |
+| Cabin appearance | Quality standards, safe handling, and inclusion in culture & recognition |
+| New supervisors & leads | A "first 90 days as a lead" pathway: coaching, fair scheduling, recognition |
 
 ---
 
-## Capability deep dive
+## Development that reaches the whole terminal — on every shift, on or off the grid
 
-Each capability earns its place by solving something the airfield actually throws at it. Below is the full set, but it's easier to see in motion.
+Every reality on the floor maps to how the platform is built to deliver — not a roadmap promise.
 
-[Product walkthrough (2 min)](https://www.youtube.com/watch?v=dQw4w9WgXcQ) *(placeholder link)*
+| The reality on the floor | How Soteria Forge is built to deliver |
+| --- | --- |
+| Terminal connectivity dead zones | True offline-first mobile learning; progress syncs idempotently on reconnect — nothing re-watched, nothing lost |
+| Onboarding & re-training 6,000+ through high turnover | Bulk roster import + bulk path assignment; new hires productive in days, not cohorts |
+| Multilingual, varied-literacy workforce | Multilingual delivery and audio/visual-first microlearning in low-text formats |
+| Inconsistent service quality across roles | Role-based paths with practical supervisor sign-off — a standard demonstrated, not just clicked |
+| Multi-employer / per-airline contracts | Multi-tenant isolation by tenant ID — each airline's people and data fully partitioned |
+| Proving impact to leadership & airline partners | Live dashboards plus exportable completion, standard, and SLA reporting |
+| A workforce that won't sit in a classroom | 3–5 minute microlearning for between-shift, in-the-pocket moments |
 
-1. **Offline-first learning with idempotent sync** — content and assignments cache on-device, completions record locally, and events reconcile exactly once when the network returns.
-2. **Bulk roster import + bulk course assignment** — onboard hundreds of new hires and push curricula to entire crews in a few clicks, not one record at a time.
-3. **Multi-tenant isolation by tenant ID** — every employer's people, progress, and records are partitioned so no tenant can see another's data.
-4. **Audit trail + xAPI records + dated certificates** — every learning event is captured as a standards-based statement and rolls up into timestamped, exportable certificates.
-5. **Certificate expiry + overdue tracking** — recurrent training deadlines are tracked automatically, surfacing what's lapsing before it lapses.
-6. **Supervisor practical sign-off for hands-on skills** — competencies that can't be assessed by a quiz are verified in the field and recorded against the same audit trail.
+> **The fit:** An assistance agent completes a sensitive-handoff refresher in a jet-bridge dead zone with zero signal; the completion syncs automatically on reconnect and lands on the leader's dashboard — nothing re-watched, nothing re-keyed, nothing lost.
+
+**See the rollout ↓**
 
 ---
 
-## Rollout timeline
+## Built to carry the whole terminal — not a pilot crew
 
-A staged path that proves the hardest mechanic — offline sync — first, then scales outward by population.
+| Capacity | Value |
+| --- | --- |
+| Employees developed on one platform | **6,000+** |
+| Service lines, curbside to ramp to gate | **8+** |
+| Learning-path completion, terminal-wide *(illustrative)* | **95%+** |
+| Microlearning, sized for a shift | **3–5 min** |
+
+Wheelchair and assistance agents, passenger and customer service, gate agents, ticketing, cabin appearance, baggage and ramp, ops and dispatch, and the supervisors who lead them — every role, in every language, on one source of truth.
+
+![Soteria Forge frontline readiness dashboard showing completion, leadership-readiness, and service standards by service line](https://placehold.co/1200x675?text=Soteria+Forge+Frontline+Readiness+Dashboard)
+
+*Live frontline readiness dashboard (representative)*
+
+---
+
+## What it feels like — for the agent, and for the leader
+
+Development only works if people actually do it. So we designed for the realities of a shift: short, practical, social, and recognized.
+
+1. **Microlearning that fits a shift** — 3–5 minute lessons on the phone, downloadable for the dead zones, in the language they prefer.
+2. **Practice the real moment** — scenario reps for de-escalation, service recovery, and sensitive assistance, not multiple-choice trivia.
+3. **Get signed off in the field** — a lead verifies the skill on the floor, so competence is demonstrated, not just clicked.
+4. **Get recognized** — completions and milestones are visible and celebrated, turning development into momentum.
+
+> **For the leader:** Coach from one shared playbook, see readiness at a glance — who's developing, who's promotion-ready, where service standards are strong or slipping — and grow the bench before a vacancy opens.
+
+---
+
+## Live with one service line in weeks — terminal-wide on a clear path
 
 | Phase | Timeline | Scope & milestone |
 | --- | --- | --- |
-| Phase 0 — Pilot | Weeks 1–4 | Single ramp crew; fall protection + LOTO; validate offline sync. |
-| Phase 1 — Below-wing ramp | Weeks 5–10 | Full ramp + baggage; bulk roster import. |
-| Phase 2 — Terminal-wide | Weeks 11–18 | Gate agents + ops; all core curricula live. |
-| Phase 3 — All-tenant | Weeks 19–26 | Every employer onboarded; audit dashboards live. |
+| **Phase 0 — Pilot service line** | Weeks 1–4 | One service line; customer-service excellence + a sensitive-assistance refresher; validate engagement & offline delivery |
+| **Phase 1 — Service-line cluster** | Weeks 5–10 | Add wheelchair/assistance + gate & ticketing; bulk roster import; first leadership-path cohort |
+| **Phase 2 — Terminal-wide** | Weeks 11–18 | All service lines incl. ramp/baggage & ops; culture & engagement and the safety foundation to all 6,000+ |
+| **Phase 3 — All airlines / all tenants** | Weeks 19–26 | Every airline contract onboarded as an isolated tenant; SLA & quality dashboards live for partners |
 
-The point of starting with a single crew isn't caution for its own sake — it's that you can be live, in the field, capturing real offline completions in **weeks, not quarters**.
-
----
-
-## Security & compliance
-
-Isolation and auditability are foundational, not add-ons. Every tenant's data is partitioned by tenant ID, so one employer's records are never visible to another. Data is encrypted **in transit and at rest**, access is gated by single sign-on (SSO), and roles follow **least-privilege** principles so people see and do only what their function requires. Behind all of it runs a full, immutable audit trail that records who did what, and when.
-
-That trail is what makes audit day boring — which is the goal. Because every learning event and sign-off is captured as it happens, evidence is assembled continuously rather than reconstructed under deadline pressure.
-
-> Every completion is timestamped, attributable, and exportable for OSHA / TSA / FAA review — assembled as it happens, not reconstructed the night before an inspection.
-
-Standards and controls touched:
-
-- **OSHA** — occupational safety training and recordkeeping
-- **TSA** — security-related training evidence
-- **FAA** — airfield operational training requirements
-- **xAPI records** — standards-based, portable learning statements
-- **Dated certificates** — timestamped, attributable proof of completion
-- **SOC 2-style access controls** — least-privilege roles, SSO, and audited access
+The point of starting with a single service line isn't caution for its own sake — it's that you can be live, in the field, capturing real engagement and offline completions in **weeks, not quarters**.
 
 ---
 
-## Why Soteria Forge
+## Built to be trusted by every airline you serve
 
-> We were running ramp safety out of a binder and three spreadsheets that never agreed with each other. With Soteria Forge, "is everyone current?" stopped being a question I had to chase down — it's one live source of truth, and it's right whether or not the crew had signal an hour ago.
+Every airline contract runs as its own isolated tenant, partitioned by tenant ID, so one partner's people, progress, and records are never visible to another. Development and engagement data is used to grow, recognize, and record-keep — not to monitor; access is least-privilege and SSO-backed, encrypted in transit and at rest, and a supervisor sees their team, not the whole terminal.
+
+- ✓ **Multi-tenant isolation by tenant ID** — full data separation per airline contract
+- ✓ **Dated, attributable completion & sign-off records** with a full audit trail
+- ✓ **Purpose-limited, transparent learner data** — development and recognition, not surveillance
+- ✓ **SOC 2 Type II — compliance in progress (pending)**
+- ✓ **Exportable SLA & quality reporting** for your airline partners
+- ✓ **Audit-ready records** that support OSHA, TSA, FAA, and airline-client review
+
+> **SOC 2 Type II — compliance in progress (pending).** We're building Soteria Forge to enterprise-grade standards and pursuing SOC 2 Type II attestation; our security and data-isolation controls are designed to meet that bar today. (SOC 2 is an attestation, not a certification — report available under NDA once issued.)
+
+---
+
+## Most platforms train a desk. We develop a terminal.
+
+> We have thousands of people who never sit at a desk — and they are the experience our airline partners pay for. Soteria Forge is the first thing that actually reaches them: short lessons they'll do, leaders working from one playbook, and a dashboard that finally answers "are our people ready?"
 >
-> — Director of Ramp Safety (composite)
+> — Composite of frontline operations leaders — illustrative, not a single named customer
 
-| Differentiator (illustrative) | Value |
+| Differentiator | Value |
 | --- | --- |
-| Faster onboarding | **40%** |
-| Offline completions captured | **100%** |
-| Lost records on reconnect | **0** |
+| Frontline employees on one development platform | **6,000+** |
+| Faster onboarding for new frontline hires *(illustrative)* | **40%** |
+| Learning-path completion, terminal-wide *(illustrative)* | **95%+** |
 
 What sets it apart:
 
-- **Built for deskless workforces** — designed around phones, shared tablets, and shift work, not office desks
-- **Offline-first, not offline-bolted-on** — the sync model is the foundation, so the field case is the default case
-- **Multi-employer by design** — tenant isolation is structural, made for shared-airfield operations
-- **Audit-ready by default** — evidence accrues automatically; exports are a click, not a project
+- **Development-first, not compliance-first** — leadership, culture, and service lead; safety is the solid floor beneath them.
+- **Built for deskless terminal teams** — designed around phones, shared devices, shift work, and dead zones.
+- **Offline-first, not offline-bolted-on** — the field case is the default case.
+- **Multi-tenant by design** — per-airline isolation and SLA reporting are structural.
+- **One standard, 6,000+ people** — role-based paths plus field sign-off so a standard is demonstrated, not assumed.
 
 ---
 
-## Final CTA
+## Let's build your frontline development program
 
-### Turn "did everyone get trained?" into a live dashboard.
+**Monica Lynn Green, MBA** — Business Development Lead
+📞 216-244-2749 · ✉️ [monicalynn@trainovations.com](mailto:monicalynn@trainovations.com)
 
-Stop chasing binders and stale spreadsheets. See your real compliance posture, live, across every crew and every employer — including the work that happened with no signal at all.
-
-[**Request a walkthrough**](mailto:hello@example.com)
+Bring your service lines, your turnover numbers, and your airline SLAs — Monica will map a rollout to your terminal. Typically responds within one business day.
 
 ---
 
-*Soteria Forge LMS — enterprise safety training, built for airport scale. Capability brief prepared for Hartsfield-Jackson Atlanta International (ATL). Metrics labeled "illustrative" are representative, not contractual.*
+### Turn "are our people ready?" into a live answer.
+
+[**Request a walkthrough**](mailto:monicalynn@trainovations.com?subject=Soteria%20Forge%20walkthrough)
+
+---
+
+*Soteria Forge — the mobile, offline-first platform built to develop a 6,000+ deskless terminal workforce: leadership, culture, and customer-service excellence, with safety & compliance as the supporting foundation. Development brief prepared for a Unifi-scale ground & terminal services operator. SOC 2 Type II compliance in progress (pending). Metrics labeled "illustrative" are representative, not contractual.*
