@@ -542,7 +542,7 @@ longer abbreviated.
     "slug": "soteria-forge-terminal",
     "status": "DRAFT",
     "themeId": "soteria-forge",
-    "ogImageUrl": "assets/og.svg"
+    "ogImageUrl": "assets/photos/terminal-concourse.jpg"
   },
   "sections": [
     {
@@ -559,6 +559,18 @@ longer abbreviated.
             "subtitle": "The mobile, offline-first platform built to grow leaders, strengthen culture, and raise customer-service standards across a 6,000+ deskless terminal workforce — from the curb to the gate to below-wing.",
             "cta": { "label": "See how we develop at scale", "href": "#develop" }
           }
+        },
+        {
+          "id": "b41",
+          "type": "image",
+          "props": {
+            "src": "assets/photos/terminal-concourse.jpg",
+            "alt": "Travelers in a sunlit airport terminal concourse at golden hour, an aircraft departing beyond the glass",
+            "caption": "Every shift, across the whole terminal.",
+            "width": 1200,
+            "height": 630,
+            "fit": "cover"
+          }
         }
       ]
     },
@@ -569,7 +581,8 @@ longer abbreviated.
       "blocks": [
         { "id": "b2", "type": "heading", "props": { "text": "A delayed flight, a full concourse, and one agent who's ready", "level": 2 } },
         { "id": "b3", "type": "richText", "props": { "html": "<p>It's 16:10. A weather hold has stacked three flights into one gate. The service desk line is twenty deep — anxious connections, a family with an unaccompanied minor, an elderly traveler waiting on wheelchair assistance, and a businessman who has already lost his patience. To every one of them, the agent at that desk <em>is</em> the airline. <em>Is</em> the airport. Is your company's reputation, live, with no script and no time.</p><p>With Soteria Forge, that agent did a four-minute service-recovery refresher on their phone between shifts this morning — practiced the exact &ldquo;acknowledge, own it, offer a path&rdquo; moves and watched a lead model the wheelchair-assistance handoff. So when the concourse stacks up, they don't freeze. They step in. The minor is reassured, the elderly passenger is moved with dignity, the line eases — and a moment that could have become a complaint becomes the reason someone flies again.</p>" } },
-        { "id": "b4", "type": "callout", "props": { "tone": "info", "title": "One loop, everywhere on the floor", "body": "Learn it offline → practice the real moment → get signed off → get recognized → deliver it for the passenger in front of you." } }
+        { "id": "b4", "type": "callout", "props": { "tone": "info", "title": "One loop, everywhere on the floor", "body": "Learn it offline → practice the real moment → get signed off → get recognized → deliver it for the passenger in front of you." } },
+        { "id": "b42", "type": "image", "props": { "src": "assets/photos/wheelchair-assistance.jpg", "alt": "An airport assistance agent walking beside an older traveler seated in a wheelchair in a sunlit terminal", "caption": "Sensitive assistance — handled with dignity.", "width": 1400, "height": 933, "fit": "cover" } }
       ]
     },
     {
@@ -689,6 +702,7 @@ longer abbreviated.
       "blocks": [
         { "id": "b22", "type": "heading", "props": { "text": "What it feels like — for the agent, and for the leader", "level": 2 } },
         { "id": "b23", "type": "richText", "props": { "html": "<p>Development only works if people actually do it. So we designed for the realities of a shift: short, practical, social, and recognized.</p>" } },
+        { "id": "b43", "type": "image", "props": { "src": "assets/photos/customer-service.jpg", "alt": "A smiling airline customer-service agent handing a boarding pass to a traveler at a terminal gate desk", "caption": "One consistent standard, every interaction.", "width": 1400, "height": 933, "fit": "cover" } },
         { "id": "b24", "type": "list", "props": { "style": "number", "items": [
           "Microlearning that fits a shift — 3–5 minute lessons on the phone, downloadable for the dead zones, in the language they prefer",
           "Practice the real moment — scenario reps for de-escalation, service recovery, and sensitive assistance, not multiple-choice trivia",
