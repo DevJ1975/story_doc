@@ -786,7 +786,7 @@ longer abbreviated.
           "role": "Business Development Lead",
           "phone": "216-244-2749",
           "email": "monicalynn@trainovations.com",
-          "photo": "assets/team/monica-green.svg",
+          "photo": "assets/team/monica-green.jpg",
           "blurb": "Bring your service lines, your turnover numbers, and your airline SLAs — Monica will map a rollout to your terminal. Typically responds within one business day."
         } }
       ]
