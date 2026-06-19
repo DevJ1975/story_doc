@@ -4,7 +4,8 @@
     "title": "Soteria Forge LMS — Training at Airport Scale",
     "slug": "soteria-forge-atl",
     "status": "DRAFT",
-    "themeId": "soteria-forge"
+    "themeId": "soteria-forge",
+    "ogImageUrl": "assets/og.svg"
   },
   "sections": [
     {
@@ -147,7 +148,7 @@
           "id": "b13",
           "type": "image",
           "props": {
-            "src": "https://placehold.co/1200x675?text=Soteria+Forge+Compliance+Dashboard",
+            "src": "assets/dashboard-preview.svg",
             "alt": "Soteria Forge compliance dashboard showing per-crew completion and overdue certifications",
             "caption": "Live compliance dashboard (representative)",
             "fit": "cover"
@@ -175,8 +176,8 @@
           "type": "video",
           "props": {
             "provider": "youtube",
-            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "poster": "https://placehold.co/1200x675?text=Product+Walkthrough"
+            "url": "",
+            "poster": ""
           }
         },
         {
@@ -313,22 +314,47 @@
       ]
     },
     {
+      "id": "s-contact",
+      "layout": "single",
+      "anchor": "contact",
+      "background": "surface",
+      "blocks": [
+        {
+          "id": "b29",
+          "type": "heading",
+          "props": { "text": "Your Soteria Forge contact", "level": 2 }
+        },
+        {
+          "id": "b30",
+          "type": "contact",
+          "props": {
+            "name": "Monica Lynn Green",
+            "credential": "MBA",
+            "role": "Business Development Lead",
+            "phone": "216-244-2749",
+            "email": "monicalynn@trainovations.com",
+            "photo": "assets/team/monica-green.svg"
+          }
+        }
+      ]
+    },
+    {
       "id": "s-cta",
       "layout": "single",
       "anchor": "cta",
       "background": "primary",
       "blocks": [
         {
-          "id": "b29",
+          "id": "b31",
           "type": "heading",
           "props": { "text": "Turn \"did everyone get trained?\" into a live dashboard.", "level": 2, "align": "center" }
         },
         {
-          "id": "b30",
+          "id": "b32",
           "type": "cta",
           "props": {
             "label": "Request a walkthrough",
-            "href": "mailto:hello@example.com",
+            "href": "mailto:monicalynn@trainovations.com",
             "variant": "accent",
             "trackingId": "cta-primary"
           }

@@ -5,18 +5,18 @@
       "name": "Soteria Forge",
       "tokens": {
         "colors": {
-          "primary": "#3DA9FC",
-          "accent": "#FF6B1F",
-          "bg": "#0B1622",
-          "surface": "#13202E",
-          "text": "#F4F8FB",
-          "muted": "#9DB2C3"
+          "primary": "#E8551F",
+          "accent": "#FFB552",
+          "bg": "#15171B",
+          "surface": "#1B1E23",
+          "text": "#F4F2EE",
+          "muted": "#A9B2BC"
         },
         "font": {
-          "display": "Space Grotesk",
-          "body": "Inter"
+          "display": "Oswald",
+          "body": "Barlow Semi Condensed"
         },
-        "radius": "16px",
+        "radius": "18px",
         "density": "comfortable"
       }
     },

@@ -514,10 +514,20 @@ longer abbreviated.
 {
   "name": "Soteria Forge",
   "tokens": {
-    "colors": { "primary": "#3DA9FC", "accent": "#FF6B1F", "bg": "#0B1622",
-                "surface": "#13202E", "text": "#F4F8FB", "muted": "#9DB2C3" },
-    "font": { "display": "Space Grotesk", "body": "Inter" },
-    "radius": "16px", "density": "comfortable"
+    "colors": {
+      "primary": "#E8551F",
+      "accent": "#FFB552",
+      "bg": "#15171B",
+      "surface": "#1B1E23",
+      "text": "#F4F2EE",
+      "muted": "#A9B2BC"
+    },
+    "font": {
+      "display": "Oswald",
+      "body": "Barlow Semi Condensed"
+    },
+    "radius": "18px",
+    "density": "comfortable"
   }
 }
 ```
@@ -526,58 +536,367 @@ longer abbreviated.
 ```json
 {
   "schemaVersion": 1,
-  "meta": { "title": "Soteria Forge LMS — Training at Airport Scale", "slug": "soteria-forge-atl", "status": "DRAFT", "themeId": "soteria-forge" },
+  "meta": {
+    "title": "Soteria Forge LMS — Training at Airport Scale",
+    "slug": "soteria-forge-atl",
+    "status": "DRAFT",
+    "themeId": "soteria-forge",
+    "ogImageUrl": "assets/og.svg"
+  },
   "sections": [
-    { "id": "s-hero", "layout": "hero", "background": "gradient", "blocks": [
-      { "id": "b1", "type": "hero", "props": { "eyebrow": "Capability brief", "title": "Enterprise safety training, built for airport scale", "subtitle": "Multi-tenant, offline-first, standards-based LMS for a distributed 1,000-employee workforce.", "cta": { "label": "See how it works", "href": "#how" } } }
-    ]},
-    { "id": "s-story", "layout": "single", "anchor": "story", "blocks": [
-      { "id": "b2", "type": "heading", "props": { "text": "The 90-second story", "level": 2 } },
-      { "id": "b3", "type": "richText", "props": { "html": "<p>A ramp supervisor needs every crew member current on fall protection and lockout/tagout before the next shift — half of them below-wing with no Wi-Fi. Today that's a spreadsheet, a binder of paper sign-offs, and a 20-seat classroom. Soteria Forge replaces all of it with one workflow.</p>" } }
-    ]},
-    { "id": "s-pain", "layout": "single", "anchor": "pain", "blocks": [
-      { "id": "b4", "type": "heading", "props": { "text": "The operating reality", "level": 2 } },
-      { "id": "b5", "type": "stats", "props": { "items": [ { "value": "1,000", "label": "employees to train & recertify" }, { "value": "3", "label": "rotating shifts, 24/7" }, { "value": "0", "label": "desks on the ramp" } ] } },
-      { "id": "b6", "type": "list", "props": { "style": "check", "items": [ "Deskless, mobile workforce", "Connectivity dead zones (tunnels, jet bridges, below-wing)", "High turnover & continuous onboarding", "Multi-employer environment needing data isolation", "Heavy OSHA / TSA / FAA audit load", "Expiring certifications to track" ] } }
-    ]},
-    { "id": "s-how", "layout": "single", "anchor": "how", "background": "surface", "blocks": [
-      { "id": "b7", "type": "heading", "props": { "text": "How the platform answers it", "level": 2 } },
-      { "id": "b8", "type": "table", "props": { "headers": ["Pain point", "Capability"], "rows": [ ["Connectivity dead zones", "True offline learning with idempotent sync"], ["Onboarding at scale", "Bulk roster import + bulk course assignment"], ["Multi-employer", "Multi-tenant isolation by tenant ID"], ["Audit load", "Audit trail + xAPI records + dated certificates"], ["Recurrent training", "Certificate expiry + overdue tracking"], ["Hands-on skills", "Supervisor practical sign-off"] ] } },
-      { "id": "b9", "type": "callout", "props": { "tone": "info", "title": "ATL fit", "body": "A handler completes lessons in a tunnel with no signal; records sync automatically on reconnect — nothing re-watched, nothing lost, nothing double-counted." } }
-    ]},
-    { "id": "s-capacity", "layout": "single", "anchor": "capacity", "blocks": [
-      { "id": "b10", "type": "heading", "props": { "text": "Capacity & scale at ATL", "level": 2 } },
-      { "id": "b11", "type": "stats", "props": { "items": [ { "value": "50+", "label": "employers / tenants isolated" }, { "value": "200+", "label": "courses & micro-lessons" }, { "value": "<2s", "label": "median sync reconcile" }, { "value": "99.9%", "label": "audit-record completeness (illustrative)" } ] } },
-      { "id": "b12", "type": "richText", "props": { "html": "<p>Content and assignments are cached on device. Lesson progress and sign-offs are recorded locally with stable, client-generated IDs, then synced idempotently on reconnect — so nothing is re-watched or double-counted, and the record is conflict-free by construction.</p>" } },
-      { "id": "b13", "type": "image", "props": { "src": "https://placehold.co/1200x675?text=Soteria+Forge+Compliance+Dashboard", "alt": "Soteria Forge compliance dashboard showing per-crew completion and overdue certifications", "caption": "Live compliance dashboard (representative)", "fit": "cover" } }
-    ]},
-    { "id": "s-capability", "layout": "single", "anchor": "capability", "blocks": [
-      { "id": "b14", "type": "heading", "props": { "text": "Capability deep dive", "level": 2 } },
-      { "id": "b15", "type": "richText", "props": { "html": "<p>One platform covers the full loop: assign, learn offline, sync, certify, and report — with the controls a multi-employer airport operation needs.</p>" } },
-      { "id": "b16", "type": "video", "props": { "provider": "youtube", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "poster": "https://placehold.co/1200x675?text=Product+Walkthrough" } },
-      { "id": "b17", "type": "list", "props": { "style": "number", "items": [ "Offline-first learning with idempotent sync", "Bulk roster import + bulk course assignment", "Multi-tenant isolation by tenant ID", "Audit trail + xAPI records + dated certificates", "Certificate expiry + overdue tracking", "Supervisor practical sign-off for hands-on skills" ] } }
-    ]},
-    { "id": "s-rollout", "layout": "single", "anchor": "rollout", "blocks": [
-      { "id": "b18", "type": "heading", "props": { "text": "Rollout timeline", "level": 2 } },
-      { "id": "b19", "type": "table", "props": { "headers": ["Phase", "Timeline", "Scope & milestone"], "rows": [ ["Phase 0 — Pilot", "Weeks 1–4", "Single ramp crew; fall protection + LOTO; validate offline sync"], ["Phase 1 — Below-wing ramp", "Weeks 5–10", "Full ramp + baggage; bulk roster import"], ["Phase 2 — Terminal-wide", "Weeks 11–18", "Gate agents + ops; all core curricula live"], ["Phase 3 — All-tenant", "Weeks 19–26", "Every employer onboarded; audit dashboards live"] ] } },
-      { "id": "b20", "type": "divider", "props": { "size": "md" } }
-    ]},
-    { "id": "s-security", "layout": "single", "anchor": "security", "background": "surface", "blocks": [
-      { "id": "b21", "type": "heading", "props": { "text": "Security & compliance", "level": 2 } },
-      { "id": "b22", "type": "richText", "props": { "html": "<p>Every tenant's data is isolated by tenant ID. Data is encrypted in transit and at rest, access is least-privilege and SSO-backed, and every action is captured in a full audit trail.</p>" } },
-      { "id": "b23", "type": "callout", "props": { "tone": "warn", "title": "Audit-ready by default", "body": "Every completion is timestamped, attributable, and exportable for OSHA, TSA, and FAA review — no scramble before an audit." } },
-      { "id": "b24", "type": "list", "props": { "style": "check", "items": [ "OSHA / TSA / FAA aligned", "Per-tenant isolation by tenant ID", "Encryption in transit & at rest", "SSO + least-privilege roles", "xAPI records + dated certificates", "SOC 2-style access controls" ] } }
-    ]},
-    { "id": "s-why", "layout": "single", "anchor": "why", "blocks": [
-      { "id": "b25", "type": "heading", "props": { "text": "Why Soteria Forge", "level": 2 } },
-      { "id": "b26", "type": "quote", "props": { "text": "We replaced a binder, a spreadsheet, and a 20-seat classroom with one live source of truth. For the first time I can answer 'is everyone trained?' instantly.", "attribution": "Director of Ramp Safety (composite)" } },
-      { "id": "b27", "type": "stats", "props": { "items": [ { "value": "40%", "label": "faster onboarding (illustrative)" }, { "value": "100%", "label": "offline completions captured" }, { "value": "0", "label": "lost records on reconnect" } ] } },
-      { "id": "b28", "type": "list", "props": { "style": "bullet", "items": [ "Built for deskless workforces", "Offline-first, not offline-bolted-on", "Multi-employer by design", "Audit-ready by default" ] } }
-    ]},
-    { "id": "s-cta", "layout": "single", "anchor": "cta", "background": "primary", "blocks": [
-      { "id": "b29", "type": "heading", "props": { "text": "Turn \"did everyone get trained?\" into a live dashboard.", "level": 2, "align": "center" } },
-      { "id": "b30", "type": "cta", "props": { "label": "Request a walkthrough", "href": "mailto:hello@example.com", "variant": "accent", "trackingId": "cta-primary" } }
-    ]}
+    {
+      "id": "s-hero",
+      "layout": "hero",
+      "background": "gradient",
+      "blocks": [
+        {
+          "id": "b1",
+          "type": "hero",
+          "props": {
+            "eyebrow": "Capability brief",
+            "title": "Enterprise safety training, built for airport scale",
+            "subtitle": "Multi-tenant, offline-first, standards-based LMS for a distributed 1,000-employee workforce.",
+            "cta": { "label": "See how it works", "href": "#how" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "s-story",
+      "layout": "single",
+      "anchor": "story",
+      "blocks": [
+        {
+          "id": "b2",
+          "type": "heading",
+          "props": { "text": "The 90-second story", "level": 2 }
+        },
+        {
+          "id": "b3",
+          "type": "richText",
+          "props": { "html": "<p>A ramp supervisor needs every crew member current on fall protection and lockout/tagout before the next shift — half of them below-wing with no Wi-Fi. Today that's a spreadsheet, a binder of paper sign-offs, and a 20-seat classroom. Soteria Forge replaces all of it with one workflow.</p>" }
+        }
+      ]
+    },
+    {
+      "id": "s-pain",
+      "layout": "single",
+      "anchor": "pain",
+      "blocks": [
+        {
+          "id": "b4",
+          "type": "heading",
+          "props": { "text": "The operating reality", "level": 2 }
+        },
+        {
+          "id": "b5",
+          "type": "stats",
+          "props": {
+            "items": [
+              { "value": "1,000", "label": "employees to train & recertify" },
+              { "value": "3", "label": "rotating shifts, 24/7" },
+              { "value": "0", "label": "desks on the ramp" }
+            ]
+          }
+        },
+        {
+          "id": "b6",
+          "type": "list",
+          "props": {
+            "style": "check",
+            "items": [
+              "Deskless, mobile workforce",
+              "Connectivity dead zones (tunnels, jet bridges, below-wing)",
+              "High turnover & continuous onboarding",
+              "Multi-employer environment needing data isolation",
+              "Heavy OSHA / TSA / FAA audit load",
+              "Expiring certifications to track"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "s-how",
+      "layout": "single",
+      "anchor": "how",
+      "background": "surface",
+      "blocks": [
+        {
+          "id": "b7",
+          "type": "heading",
+          "props": { "text": "How the platform answers it", "level": 2 }
+        },
+        {
+          "id": "b8",
+          "type": "table",
+          "props": {
+            "headers": ["Pain point", "Capability"],
+            "rows": [
+              ["Connectivity dead zones", "True offline learning with idempotent sync"],
+              ["Onboarding at scale", "Bulk roster import + bulk course assignment"],
+              ["Multi-employer", "Multi-tenant isolation by tenant ID"],
+              ["Audit load", "Audit trail + xAPI records + dated certificates"],
+              ["Recurrent training", "Certificate expiry + overdue tracking"],
+              ["Hands-on skills", "Supervisor practical sign-off"]
+            ]
+          }
+        },
+        {
+          "id": "b9",
+          "type": "callout",
+          "props": {
+            "tone": "info",
+            "title": "ATL fit",
+            "body": "A handler completes lessons in a tunnel with no signal; records sync automatically on reconnect — nothing re-watched, nothing lost, nothing double-counted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s-capacity",
+      "layout": "single",
+      "anchor": "capacity",
+      "blocks": [
+        {
+          "id": "b10",
+          "type": "heading",
+          "props": { "text": "Capacity & scale at ATL", "level": 2 }
+        },
+        {
+          "id": "b11",
+          "type": "stats",
+          "props": {
+            "items": [
+              { "value": "50+", "label": "employers / tenants isolated" },
+              { "value": "200+", "label": "courses & micro-lessons" },
+              { "value": "<2s", "label": "median sync reconcile" },
+              { "value": "99.9%", "label": "audit-record completeness (illustrative)" }
+            ]
+          }
+        },
+        {
+          "id": "b12",
+          "type": "richText",
+          "props": { "html": "<p>Content and assignments are cached on device. Lesson progress and sign-offs are recorded locally with stable, client-generated IDs, then synced idempotently on reconnect — so nothing is re-watched or double-counted, and the record is conflict-free by construction.</p>" }
+        },
+        {
+          "id": "b13",
+          "type": "image",
+          "props": {
+            "src": "assets/dashboard-preview.svg",
+            "alt": "Soteria Forge compliance dashboard showing per-crew completion and overdue certifications",
+            "caption": "Live compliance dashboard (representative)",
+            "fit": "cover"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s-capability",
+      "layout": "single",
+      "anchor": "capability",
+      "blocks": [
+        {
+          "id": "b14",
+          "type": "heading",
+          "props": { "text": "Capability deep dive", "level": 2 }
+        },
+        {
+          "id": "b15",
+          "type": "richText",
+          "props": { "html": "<p>One platform covers the full loop: assign, learn offline, sync, certify, and report — with the controls a multi-employer airport operation needs.</p>" }
+        },
+        {
+          "id": "b16",
+          "type": "video",
+          "props": {
+            "provider": "youtube",
+            "url": "",
+            "poster": ""
+          }
+        },
+        {
+          "id": "b17",
+          "type": "list",
+          "props": {
+            "style": "number",
+            "items": [
+              "Offline-first learning with idempotent sync",
+              "Bulk roster import + bulk course assignment",
+              "Multi-tenant isolation by tenant ID",
+              "Audit trail + xAPI records + dated certificates",
+              "Certificate expiry + overdue tracking",
+              "Supervisor practical sign-off for hands-on skills"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "s-rollout",
+      "layout": "single",
+      "anchor": "rollout",
+      "blocks": [
+        {
+          "id": "b18",
+          "type": "heading",
+          "props": { "text": "Rollout timeline", "level": 2 }
+        },
+        {
+          "id": "b19",
+          "type": "table",
+          "props": {
+            "headers": ["Phase", "Timeline", "Scope & milestone"],
+            "rows": [
+              ["Phase 0 — Pilot", "Weeks 1–4", "Single ramp crew; fall protection + LOTO; validate offline sync"],
+              ["Phase 1 — Below-wing ramp", "Weeks 5–10", "Full ramp + baggage; bulk roster import"],
+              ["Phase 2 — Terminal-wide", "Weeks 11–18", "Gate agents + ops; all core curricula live"],
+              ["Phase 3 — All-tenant", "Weeks 19–26", "Every employer onboarded; audit dashboards live"]
+            ]
+          }
+        },
+        {
+          "id": "b20",
+          "type": "divider",
+          "props": { "size": "md" }
+        }
+      ]
+    },
+    {
+      "id": "s-security",
+      "layout": "single",
+      "anchor": "security",
+      "background": "surface",
+      "blocks": [
+        {
+          "id": "b21",
+          "type": "heading",
+          "props": { "text": "Security & compliance", "level": 2 }
+        },
+        {
+          "id": "b22",
+          "type": "richText",
+          "props": { "html": "<p>Every tenant's data is isolated by tenant ID. Data is encrypted in transit and at rest, access is least-privilege and SSO-backed, and every action is captured in a full audit trail.</p>" }
+        },
+        {
+          "id": "b23",
+          "type": "callout",
+          "props": {
+            "tone": "warn",
+            "title": "Audit-ready by default",
+            "body": "Every completion is timestamped, attributable, and exportable for OSHA, TSA, and FAA review — no scramble before an audit."
+          }
+        },
+        {
+          "id": "b24",
+          "type": "list",
+          "props": {
+            "style": "check",
+            "items": [
+              "OSHA / TSA / FAA aligned",
+              "Per-tenant isolation by tenant ID",
+              "Encryption in transit & at rest",
+              "SSO + least-privilege roles",
+              "xAPI records + dated certificates",
+              "SOC 2-style access controls"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "s-why",
+      "layout": "single",
+      "anchor": "why",
+      "blocks": [
+        {
+          "id": "b25",
+          "type": "heading",
+          "props": { "text": "Why Soteria Forge", "level": 2 }
+        },
+        {
+          "id": "b26",
+          "type": "quote",
+          "props": {
+            "text": "We replaced a binder, a spreadsheet, and a 20-seat classroom with one live source of truth. For the first time I can answer 'is everyone trained?' instantly.",
+            "attribution": "Director of Ramp Safety (composite)"
+          }
+        },
+        {
+          "id": "b27",
+          "type": "stats",
+          "props": {
+            "items": [
+              { "value": "40%", "label": "faster onboarding (illustrative)" },
+              { "value": "100%", "label": "offline completions captured" },
+              { "value": "0", "label": "lost records on reconnect" }
+            ]
+          }
+        },
+        {
+          "id": "b28",
+          "type": "list",
+          "props": {
+            "style": "bullet",
+            "items": [
+              "Built for deskless workforces",
+              "Offline-first, not offline-bolted-on",
+              "Multi-employer by design",
+              "Audit-ready by default"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "s-contact",
+      "layout": "single",
+      "anchor": "contact",
+      "background": "surface",
+      "blocks": [
+        {
+          "id": "b29",
+          "type": "heading",
+          "props": { "text": "Your Soteria Forge contact", "level": 2 }
+        },
+        {
+          "id": "b30",
+          "type": "contact",
+          "props": {
+            "name": "Monica Lynn Green",
+            "credential": "MBA",
+            "role": "Business Development Lead",
+            "phone": "216-244-2749",
+            "email": "monicalynn@trainovations.com",
+            "photo": "assets/team/monica-green.svg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s-cta",
+      "layout": "single",
+      "anchor": "cta",
+      "background": "primary",
+      "blocks": [
+        {
+          "id": "b31",
+          "type": "heading",
+          "props": { "text": "Turn \"did everyone get trained?\" into a live dashboard.", "level": 2, "align": "center" }
+        },
+        {
+          "id": "b32",
+          "type": "cta",
+          "props": {
+            "label": "Request a walkthrough",
+            "href": "mailto:monicalynn@trainovations.com",
+            "variant": "accent",
+            "trackingId": "cta-primary"
+          }
+        }
+      ]
+    }
   ]
 }
 ```
