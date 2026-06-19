@@ -9,54 +9,54 @@
   <circle cx="34" cy="33" r="13" fill="none" stroke="url(#d-ember)" stroke-width="3"/>
   <path d="M34 24 l-5 11 h4 l-2 8 7-11 h-4 z" fill="#FF7A3D"/>
   <text x="60" y="41" font-family="Oswald,sans-serif" font-weight="700" font-size="22" fill="#F4F2EE">SOTERIA<tspan fill="#FF7A3D"> FORGE</tspan></text>
-  <text x="1166" y="41" text-anchor="end" font-family="'Barlow Semi Condensed',sans-serif" font-size="18" fill="#8A929C">Compliance · ATL</text>
+  <text x="1166" y="41" text-anchor="end" font-family="'Barlow Semi Condensed',sans-serif" font-size="18" fill="#8A929C">Frontline readiness · Terminal services</text>
 
   <!-- stat tiles -->
   <g font-family="'Barlow Semi Condensed',sans-serif">
     <g>
       <rect x="40" y="98" width="262" height="120" rx="16" fill="#1F242C" stroke="#3A4048"/>
       <text x="64" y="138" font-size="18" fill="#8A929C">Workforce current</text>
-      <text x="64" y="190" font-family="Oswald,sans-serif" font-weight="700" font-size="46" fill="#F4F2EE">92.4%</text>
+      <text x="64" y="190" font-family="Oswald,sans-serif" font-weight="700" font-size="46" fill="#F4F2EE">94%</text>
     </g>
     <g>
       <rect x="322" y="98" width="262" height="120" rx="16" fill="#1F242C" stroke="#3A4048"/>
-      <text x="346" y="138" font-size="18" fill="#8A929C">Overdue certs</text>
-      <text x="346" y="190" font-family="Oswald,sans-serif" font-weight="700" font-size="46" fill="#FF7A3D">38</text>
+      <text x="346" y="138" font-size="18" fill="#8A929C">Leadership-ready</text>
+      <text x="346" y="190" font-family="Oswald,sans-serif" font-weight="700" font-size="46" fill="#FF7A3D">312</text>
     </g>
     <g>
       <rect x="604" y="98" width="262" height="120" rx="16" fill="#1F242C" stroke="#3A4048"/>
-      <text x="628" y="138" font-size="18" fill="#8A929C">Synced offline (24h)</text>
-      <text x="628" y="190" font-family="Oswald,sans-serif" font-weight="700" font-size="46" fill="#F4F2EE">1,204</text>
+      <text x="628" y="138" font-size="18" fill="#8A929C">Engaged today</text>
+      <text x="628" y="190" font-family="Oswald,sans-serif" font-weight="700" font-size="46" fill="#F4F2EE">4,810</text>
     </g>
     <g>
       <rect x="886" y="98" width="274" height="120" rx="16" fill="#1F242C" stroke="#3A4048"/>
-      <text x="910" y="138" font-size="18" fill="#8A929C">Tenants active</text>
+      <text x="910" y="138" font-size="18" fill="#8A929C">Airline tenants</text>
       <text x="910" y="190" font-family="Oswald,sans-serif" font-weight="700" font-size="46" fill="#FFB552">50</text>
     </g>
   </g>
 
   <!-- bar chart: completion by crew -->
   <rect x="40" y="242" width="700" height="393" rx="16" fill="#1F242C" stroke="#3A4048"/>
-  <text x="64" y="282" font-family="Oswald,sans-serif" font-weight="600" font-size="22" fill="#F4F2EE">Completion by crew</text>
+  <text x="64" y="282" font-family="Oswald,sans-serif" font-weight="600" font-size="22" fill="#F4F2EE">Completion by service line</text>
   <g font-family="'Barlow Semi Condensed',sans-serif" font-size="16" fill="#8A929C">
     <!-- bars -->
     <g>
-      <rect x="64"  y="330" width="600" height="34" rx="6" fill="#2A2F38"/><rect x="64" y="330" width="558" height="34" rx="6" fill="url(#d-ember)"/><text x="676" y="353" fill="#F4F2EE">Ramp A · 93%</text>
-      <rect x="64"  y="382" width="600" height="34" rx="6" fill="#2A2F38"/><rect x="64" y="382" width="486" height="34" rx="6" fill="url(#d-ember)"/><text x="676" y="405" fill="#F4F2EE">Ramp B · 81%</text>
-      <rect x="64"  y="434" width="600" height="34" rx="6" fill="#2A2F38"/><rect x="64" y="434" width="540" height="34" rx="6" fill="url(#d-ember)"/><text x="676" y="457" fill="#F4F2EE">Baggage · 90%</text>
-      <rect x="64"  y="486" width="600" height="34" rx="6" fill="#2A2F38"/><rect x="64" y="486" width="408" height="34" rx="6" fill="#FFB552"/><text x="676" y="509" fill="#F4F2EE">Gate ops · 68%</text>
-      <rect x="64"  y="538" width="600" height="34" rx="6" fill="#2A2F38"/><rect x="64" y="538" width="576" height="34" rx="6" fill="url(#d-ember)"/><text x="676" y="561" fill="#F4F2EE">De-ice · 96%</text>
+      <rect x="64"  y="330" width="600" height="34" rx="6" fill="#2A2F38"/><rect x="64" y="330" width="558" height="34" rx="6" fill="url(#d-ember)"/><text x="676" y="353" fill="#F4F2EE">Customer service · 93%</text>
+      <rect x="64"  y="382" width="600" height="34" rx="6" fill="#2A2F38"/><rect x="64" y="382" width="486" height="34" rx="6" fill="url(#d-ember)"/><text x="676" y="405" fill="#F4F2EE">Wheelchair asst · 81%</text>
+      <rect x="64"  y="434" width="600" height="34" rx="6" fill="#2A2F38"/><rect x="64" y="434" width="540" height="34" rx="6" fill="url(#d-ember)"/><text x="676" y="457" fill="#F4F2EE">Gate · 90%</text>
+      <rect x="64"  y="486" width="600" height="34" rx="6" fill="#2A2F38"/><rect x="64" y="486" width="408" height="34" rx="6" fill="#FFB552"/><text x="676" y="509" fill="#F4F2EE">Cabin · 68%</text>
+      <rect x="64"  y="538" width="600" height="34" rx="6" fill="#2A2F38"/><rect x="64" y="538" width="576" height="34" rx="6" fill="url(#d-ember)"/><text x="676" y="561" fill="#F4F2EE">Ticketing · 96%</text>
     </g>
   </g>
 
   <!-- donut: overall -->
   <rect x="760" y="242" width="400" height="393" rx="16" fill="#1F242C" stroke="#3A4048"/>
-  <text x="784" y="282" font-family="Oswald,sans-serif" font-weight="600" font-size="22" fill="#F4F2EE">Overall current</text>
+  <text x="784" y="282" font-family="Oswald,sans-serif" font-weight="600" font-size="22" fill="#F4F2EE">Frontline ready</text>
   <g transform="translate(960,440)">
     <circle r="120" fill="none" stroke="#2A2F38" stroke-width="34"/>
     <circle r="120" fill="none" stroke="url(#d-ember)" stroke-width="34" stroke-linecap="round"
-            stroke-dasharray="697 754" transform="rotate(-90)"/>
-    <text x="0" y="-2" text-anchor="middle" font-family="Oswald,sans-serif" font-weight="700" font-size="58" fill="#F4F2EE">92%</text>
-    <text x="0" y="34" text-anchor="middle" font-family="'Barlow Semi Condensed',sans-serif" font-size="18" fill="#8A929C">1,000 employees</text>
+            stroke-dasharray="709 754" transform="rotate(-90)"/>
+    <text x="0" y="-2" text-anchor="middle" font-family="Oswald,sans-serif" font-weight="700" font-size="58" fill="#F4F2EE">94%</text>
+    <text x="0" y="34" text-anchor="middle" font-family="'Barlow Semi Condensed',sans-serif" font-size="18" fill="#8A929C">6,000+ employees</text>
   </g>
 </svg>

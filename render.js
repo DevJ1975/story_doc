@@ -42,8 +42,9 @@
     },
     richText: function (p) { return '<div class="rich">' + (p.html || "") + "</div>"; },
     image: function (p) {
+      var dim = (p.width ? ' width="' + esc(p.width) + '"' : "") + (p.height ? ' height="' + esc(p.height) + '"' : "");
       return '<figure><img src="' + esc(p.src) + '" alt="' + esc(p.alt) +
-        '" loading="lazy">' + (p.caption ? "<figcaption>" + esc(p.caption) + "</figcaption>" : "") + "</figure>";
+        '" loading="lazy" decoding="async"' + dim + ">" + (p.caption ? "<figcaption>" + esc(p.caption) + "</figcaption>" : "") + "</figure>";
     },
     video: function (p) {
       var id = ytId(p.url);
@@ -80,7 +81,7 @@
     },
     divider: function (p) { return '<hr class="divider divider--' + esc(p.size || "md") + '">'; },
     table: function (p) {
-      var head = "<tr>" + (p.headers || []).map(function (h) { return "<th>" + esc(h) + "</th>"; }).join("") + "</tr>";
+      var head = "<tr>" + (p.headers || []).map(function (h) { return '<th scope="col">' + esc(h) + "</th>"; }).join("") + "</tr>";
       var body = (p.rows || []).map(function (r) {
         return "<tr>" + r.map(function (c) { return "<td>" + esc(c) + "</td>"; }).join("") + "</tr>";
       }).join("");
@@ -103,7 +104,9 @@
         '<div class="contact__body">' +
         '<p class="contact__name">' + esc(p.name) + (p.credential ? ', <span>' + esc(p.credential) + "</span>" : "") + "</p>" +
         (p.role ? '<p class="contact__role">' + esc(p.role) + "</p>" : "") +
-        '<p class="contact__lines">' + lines + "</p></div></div>";
+        '<p class="contact__lines">' + lines + "</p>" +
+        (p.blurb ? '<p class="contact__blurb">' + esc(p.blurb) + "</p>" : "") +
+        "</div></div>";
     }
   };
 
